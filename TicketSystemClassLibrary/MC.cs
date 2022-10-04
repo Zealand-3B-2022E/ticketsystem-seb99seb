@@ -7,11 +7,11 @@ using System.Threading.Tasks;
 namespace TicketSystemClassLibrary
 {
     /// <summary>
-    /// Public class MC
+    /// Public class MC using abstract class "Vehicle"
     /// Contains properties string LicensePlate and DateTime Date,
     /// and methods Price() and VehicleType().
     /// </summary>
-    public class MC
+    public class MC : Vehicle
     {
         public string LicensePlate { get; set; }
         public DateTime Date { get; set; }
@@ -19,7 +19,7 @@ namespace TicketSystemClassLibrary
         /// Method to return double - set to 125
         /// </summary>
         /// <returns></returns>
-        public double Price()
+        public override double Price()
         {
             return 125;
         }
@@ -27,7 +27,7 @@ namespace TicketSystemClassLibrary
         /// Method to return string "MC"
         /// </summary>
         /// <returns></returns>
-        public string VehicleType()
+        public override string VehicleType()
         {
             return "MC";
         }
