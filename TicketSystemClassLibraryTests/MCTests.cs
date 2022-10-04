@@ -20,6 +20,15 @@ namespace TicketSystemClassLibrary.Tests
             Assert.AreEqual(ExpectedValue, ActualValue);
         }
         [TestMethod()]
+        public void PriceTestDiscount()
+        {
+            double ExpectedValue = 118.75;
+            MC mc = new MC("A7BH3AS");
+            mc.Brobizz = true;
+            double ActualValue = mc.Price();
+            Assert.AreEqual(ExpectedValue, ActualValue);
+        }
+        [TestMethod()]
         public void VehicleTypeTestSucess()
         {
             string ExpectedValue = "MC";

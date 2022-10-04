@@ -12,12 +12,19 @@
 
         }
         /// <summary>
-        /// Method to return double - set to 240
+        /// Method to return double - set to 240, can however get a 5% discount
         /// </summary>
         /// <returns></returns>
         public override double Price()
         {
-            return 240;
+            if (Brobizz)
+            {
+                return 240 - (240*0.05);
+            }
+            else
+            {
+                return 240;
+            }
         }
         /// <summary>
         /// Method to return string "Car"

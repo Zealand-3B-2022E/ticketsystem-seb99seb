@@ -13,6 +13,7 @@ namespace TicketSystemClassLibrary
     {
         private string _licensePlate;
         public DateTime Date { get; set; }
+        public bool Brobizz { get; set; }
         public Vehicle(string licensePlate)
         {
             LicensePlate = licensePlate;

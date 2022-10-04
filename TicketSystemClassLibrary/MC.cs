@@ -18,12 +18,19 @@ namespace TicketSystemClassLibrary
 
         }
         /// <summary>
-        /// Method to return double - set to 125
+        /// Method to return double - set to 125, can however get a 5% discount
         /// </summary>
         /// <returns></returns>
         public override double Price()
         {
-            return 125;
+            if (Brobizz)
+            {
+                return 125 - (125 * 0.05);
+            }
+            else
+            {
+                return 125;
+            }
         }
         /// <summary>
         /// Method to return string "MC"

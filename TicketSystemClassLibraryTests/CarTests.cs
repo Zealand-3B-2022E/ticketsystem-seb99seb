@@ -19,6 +19,15 @@ namespace TicketSystemClassLibrary.Tests
             double ActualValue = car.Price();
             Assert.AreEqual(ExpectedValue,ActualValue);
         }
+        [TestMethod()]
+        public void PriceTestDiscount()
+        {
+            double ExpectedValue = 228;
+            Car car = new Car("A7BH3AS");
+            car.Brobizz = true;
+            double ActualValue = car.Price();
+            Assert.AreEqual(ExpectedValue, ActualValue);
+        }
 
         [TestMethod()]
         public void VehicleTypeTestSucess()
