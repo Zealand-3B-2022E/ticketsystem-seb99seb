@@ -7,8 +7,10 @@
     /// </summary>
     public class Car : Vehicle
     {
-        public string LicensePlate { get; set; }
-        public DateTime Date { get; set; }
+        public Car(string licensePlate) :base(licensePlate)
+        {
+
+        }
         /// <summary>
         /// Method to return double - set to 240
         /// </summary>

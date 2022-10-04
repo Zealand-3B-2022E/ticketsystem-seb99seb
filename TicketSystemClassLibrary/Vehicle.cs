@@ -7,21 +7,49 @@ using System.Threading.Tasks;
 namespace TicketSystemClassLibrary
 {
     /// <summary>
-    /// publuc abstract class
+    /// public class for inheritence
     /// </summary>
-    public abstract class Vehicle
+    public class Vehicle
     {
-        public string LicensePlate { get; set; }
+        private string _licensePlate;
         public DateTime Date { get; set; }
+        public Vehicle(string licensePlate)
+        {
+            LicensePlate = licensePlate;
+        }
+        /// <summary>
+        /// Property that makes sure licenseplate isn't longer than 7 symbols
+        /// </summary>
+        public string LicensePlate
+        {
+            get { return _licensePlate; }
+            set
+            {
+                if (value.Length <= 7)
+                {
+                    _licensePlate = value;
+                }
+                else
+                {
+                    throw new ArgumentException();
+                }
+            }
+        }
         /// <summary>
         /// Method to return Price as double
         /// </summary>
         /// <returns></returns>
-        public abstract double Price();
+        public virtual double Price()
+        {
+            return 0;
+        }
         /// <summary>
         /// Method to return car as string
         /// </summary>
         /// <returns></returns>
-        public abstract string VehicleType();
+        public virtual string VehicleType()
+        {
+            return "vehicle";
+        }
     }
 }

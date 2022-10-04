@@ -13,8 +13,10 @@ namespace TicketSystemClassLibrary
     /// </summary>
     public class MC : Vehicle
     {
-        public string LicensePlate { get; set; }
-        public DateTime Date { get; set; }
+        public MC(string licensePlate):base(licensePlate)
+        {
+
+        }
         /// <summary>
         /// Method to return double - set to 125
         /// </summary>
