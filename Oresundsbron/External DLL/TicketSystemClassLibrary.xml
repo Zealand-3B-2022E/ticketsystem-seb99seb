@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>TicketSystemClassLibrary</name>
+    </assembly>
+    <members>
+        <member name="T:TicketSystemClassLibrary.Car">
+            <summary>
+            Public class Car using abstract class "Vehicle"
+            Contains properties string LicensePlate and DateTime Date,
+            and methods Price() and VehicleType().
+            </summary>
+        </member>
+        <member name="M:TicketSystemClassLibrary.Car.Price">
+            <summary>
+            Method to return double - set to 240, can however get a 5% discount
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:TicketSystemClassLibrary.Car.VehicleType">
+            <summary>
+            Method to return string "Car"
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:TicketSystemClassLibrary.MC">
+            <summary>
+            Public class MC using abstract class "Vehicle"
+            Contains properties string LicensePlate and DateTime Date,
+            and methods Price() and VehicleType().
+            </summary>
+        </member>
+        <member name="M:TicketSystemClassLibrary.MC.Price">
+            <summary>
+            Method to return double - set to 125, can however get a 5% discount
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:TicketSystemClassLibrary.MC.VehicleType">
+            <summary>
+            Method to return string "MC"
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:TicketSystemClassLibrary.Vehicle">
+            <summary>
+            public class for inheritence
+            </summary>
+        </member>
+        <member name="P:TicketSystemClassLibrary.Vehicle.LicensePlate">
+            <summary>
+            Property that makes sure licenseplate isn't longer than 7 symbols
+            </summary>
+        </member>
+        <member name="M:TicketSystemClassLibrary.Vehicle.Price">
+            <summary>
+            Method to return Price as double
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:TicketSystemClassLibrary.Vehicle.VehicleType">
+            <summary>
+            Method to return car as string
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
