@@ -12,7 +12,7 @@ namespace TicketSystemClassLibrary
     /// and methods Price() and VehicleType().
     /// </summary>
     public class MC : Vehicle
-    {
+    {   
         public MC(string licensePlate):base(licensePlate)
         {
 
