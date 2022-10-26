@@ -2,12 +2,8 @@
 
 namespace StoreBaeltTicketLibrary
 {
-    public class SBCar : Car
+    public class SBCar : SBVehicle
     {
-        /// <summary>
-        /// New bool property, used to detertime whether or not to give 20% discount
-        /// </summary>
-        public bool Weekend { get; set; }
         public SBCar(string licenseplate):base(licenseplate)
         {
 

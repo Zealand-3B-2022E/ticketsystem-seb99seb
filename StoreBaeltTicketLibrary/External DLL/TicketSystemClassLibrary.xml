@@ -47,11 +47,6 @@
             public class for inheritence
             </summary>
         </member>
-        <member name="P:TicketSystemClassLibrary.Vehicle.LicensePlate">
-            <summary>
-            Property that makes sure licenseplate isn't longer than 7 symbols
-            </summary>
-        </member>
         <member name="M:TicketSystemClassLibrary.Vehicle.Price">
             <summary>
             Method to return Price as double

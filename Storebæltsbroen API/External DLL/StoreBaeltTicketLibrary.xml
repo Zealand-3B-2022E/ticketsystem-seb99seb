@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>StoreBaeltTicketLibrary</name>
+    </assembly>
+    <members>
+        <member name="M:StoreBaeltTicketLibrary.SBCar.Price">
+            <summary>
+            Price method that returns double 240 by default, can however get discount by both or Weekend discount and Brobizz
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:StoreBaeltTicketLibrary.SBVehicle.Weekend">
+            <summary>
+            bool property, used to detertime whether or not to give 20% discount
+            </summary>
+        </member>
+    </members>
+</doc>

@@ -1,5 +1,4 @@
 ﻿using TicketSystemClassLibrary;
-
 namespace Oresundsbron
 {
     public class OCar : Car

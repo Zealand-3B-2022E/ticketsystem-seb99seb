@@ -11,29 +11,18 @@ namespace TicketSystemClassLibrary
     /// </summary>
     public class Vehicle
     {
-        private string _licensePlate;
+        public string LicensePlate { set; get; }
         public DateTime Date { get; set; }
         public bool Brobizz { get; set; }
         public Vehicle(string licensePlate)
         {
-            LicensePlate = licensePlate;
-        }
-        /// <summary>
-        /// Property that makes sure licenseplate isn't longer than 7 symbols
-        /// </summary>
-        public string LicensePlate
-        {
-            get { return _licensePlate; }
-            set
+            if (licensePlate.Length > 7)
             {
-                if (value.Length <= 7)
-                {
-                    _licensePlate = value;
-                }
-                else
-                {
-                    throw new ArgumentException();
-                }
+                throw new ArgumentException();
+            }
+            else
+            {
+               LicensePlate = licensePlate;
             }
         }
         /// <summary>

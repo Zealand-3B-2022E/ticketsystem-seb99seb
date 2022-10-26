@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32825.248
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TicketSystemClassLibrary", "TicketSystemClassLibrary\TicketSystemClassLibrary.csproj", "{183D69DE-5904-46BD-9168-828D1DDE550C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TicketSystemClassLibrary1", "TicketSystemClassLibrary\TicketSystemClassLibrary1.csproj", "{183D69DE-5904-46BD-9168-828D1DDE550C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicketSystemClassLibraryTests", "TicketSystemClassLibraryTests\TicketSystemClassLibraryTests.csproj", "{2CBB7F34-480C-418F-95EE-C9C7C8F40D0D}"
 EndProject
@@ -14,6 +14,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Oresundsbron", "Oresundsbron\Oresundsbron.csproj", "{93D6BF0B-3806-4E1C-B597-CA0B290EFA0F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OresundsbronTests", "OresundsbronTests\OresundsbronTests.csproj", "{3221B5E5-AA36-4D3B-951D-669A55F21335}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Storebæltsbroen API", "Storebæltsbroen API\Storebæltsbroen API.csproj", "{8DBD13F1-A7C0-4829-8656-115C336A3A9E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{3221B5E5-AA36-4D3B-951D-669A55F21335}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3221B5E5-AA36-4D3B-951D-669A55F21335}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3221B5E5-AA36-4D3B-951D-669A55F21335}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8DBD13F1-A7C0-4829-8656-115C336A3A9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DBD13F1-A7C0-4829-8656-115C336A3A9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DBD13F1-A7C0-4829-8656-115C336A3A9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DBD13F1-A7C0-4829-8656-115C336A3A9E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
